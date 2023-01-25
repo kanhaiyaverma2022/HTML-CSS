@@ -1,0 +1,131 @@
+html,body
+{
+height: 100%;
+margin: 0;
+font-size: 16px;
+font-family: "lato",sans-serif;
+font-weight: 400;
+line-height: 1.8em; /*for between line space*/
+color: rgb(202, 17, 17);
+}
+.bc-img1{
+    background-image: url('https://img.freepik.com/free-photo/selective-focus-shot-red-squirrel-running-water-with-nut_181624-37522.jpg?w=1480&t=st=1674577804~exp=1674578404~hmac=ee99a4c5736f472e46674ffdf70f1bf95b587d65e54e1cb4ba326eee78a9af51');
+       
+
+}
+.bc-img2{
+    background-image: url('https://img.freepik.com/free-photo/amazing-bengal-tiger-nature_475641-1137.jpg?w=1380&t=st=1674662186~exp=1674662786~hmac=37af67ac2f38c524d50dff41b5bea2086e830209e4066fe3308fe7f51f684749');
+}
+.bc-img3{
+    background-image: url('https://img.freepik.com/premium-photo/elephants-forest_73899-621.jpg');
+}
+.bc-img4{
+    background-image: url('https://img.freepik.com/premium-photo/palm-squirrel-rodent-also-known-as-chipmunk-sitting-tree-trunk-blurry-background_7954-4502.jpg?w=1380');
+}
+.bc-img5{
+    background-image: url('https://as1.ftcdn.net/v2/jpg/03/12/26/06/1000_F_312260680_EVMXPzgpDj0F5FVoiJUbQ1axYmS5JArN.jpg');
+}
+
+    .bc{
+        height: 20rem;
+        display: flex;
+        gap:1rem;
+        
+    }
+    
+    div
+    {
+        flex: 1;
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2rem;
+        transition: all .8s cubic-bezier(0.25, .4, 0.45, 1.4);
+    }
+    .bc > div:hover
+    {
+        flex: 5;
+        transition: 0.8s;
+        
+    }
+    h1{
+        font-size: 50px;
+    }
+.pimg1
+{
+    background-image: url("https://img.freepik.com/free-photo/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal_181624-24825.jpg?w=1480&t=st=1674557622~exp=1674558222~hmac=65c02f37b1871aff6bfe54a3755cb8c5048102315a14e7113fac83b7356e9c34");
+    min-height: 100%;
+}
+.pimg2
+{
+    background-image: url("https://img.freepik.com/free-vector/colorful-underwater-life-template_1284-37130.jpg?w=1480&t=st=1674558145~exp=1674558745~hmac=b3a72cf6ccbd64713d1f2ee7b66606c7e20f5358b780123d9679494a21cf1b5f");
+    min-height: 100%;
+}
+.pimg3
+
+    {
+        background-image: url("https://img.freepik.com/free-photo/flamingo_658691-404.jpg?w=1380&t=st=1674557985~exp=1674558585~hmac=3556a52635f7729facdf1134be2d621e5d2a4c0b5a05d76be1f1de1bba343058");
+        min-height: 100%;
+    }
+.pimg1,.pimg2,.pimg3
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 8px;
+}    
+.ptext
+{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+.textbg{
+    padding: 20px;
+    background: #313534;
+    color: #fff;
+
+}
+.section {
+    padding: 40px 80px;
+    text-align: center;
+}
+.section-light
+{
+    background-image: url("https://img.freepik.com/free-vector/watercolor-with-blue-detailed-background_1409-1170.jpg?w=1380&t=st=1674560386~exp=1674560986~hmac=13c2c4d121f6dd65f7b9c85b027ffa6a96bd93ec7677c77e7af8ad3615679fde");
+    background-size: cover;
+  color: #666;
+
+}
+.section-dark
+{
+background-image:url("https://img.freepik.com/free-vector/ocean-sea-waves-with-ripples_1017-30742.jpg?t=st=1674560226~exp=1674560826~hmac=3638c1726fc8378cd5f49ff14d872a2bec507c328edcefe6e455ebc1f9933388");
+color: #666;
+}
+footer
+{
+
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    border-radius: 10px;
+}
+footer:hover
+{
+
+    padding: 10px;
+    color: rgb(29, 210, 210);
+    text-align: center;
+    
+    background-color:white;
+    border-radius: 10px;
+    transition: 0.8s;
+}
